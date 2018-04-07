@@ -321,6 +321,7 @@ body::-webkit-scrollbar-corner {
 	background: url(../images/headers/recentprojback.jpg);
 	background-size: cover;
 	background-blend-mode: multiply;
+	background-attachment: fixed;
 	background-color: #707070;
 	text-align: center;
 	padding-bottom: 40px;
@@ -668,6 +669,7 @@ h4.signature {
 	background: url(../images/headers/recentprojback.jpg);
 	background-size: cover;
 	background-blend-mode: multiply;
+	background-attachment: fixed;
 	background-color: #707070;
 	text-align: center;
 

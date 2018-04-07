@@ -214,7 +214,7 @@ body::-webkit-scrollbar-corner {
 .indexheader {
 	width: 100%;
 	height: 960px;
-	background-image: url(../images/headers/indexhead.png);
+	background-image: url(../../assets/designer/headers/indexhead.png);
 	background-size: cover;
 	overflow-x: hidden;
 	background-color: rgba(112,112,112, .95);
@@ -318,7 +318,7 @@ body::-webkit-scrollbar-corner {
 .recentproj {
 	height: auto;
 	width: 100%;
-	background: url(../images/headers/recentprojback.jpg);
+	background: url(../../assets/designer/headers/recentprojback.jpg);
 	background-size: cover;
 	background-blend-mode: multiply;
 	background-attachment: fixed;
@@ -498,7 +498,7 @@ body::-webkit-scrollbar-corner {
 .aboutheader {
 	width: 100%;
 	height: 900px;
-	background-image: url(../images/headers/abouthead.png);
+	background-image: url(../../assets/designer/headers/abouthead.png);
 	background-size: cover;
 	overflow-x: hidden;
 	background-color: rgba(112,112,112, .95);
@@ -666,7 +666,7 @@ h4.signature {
 .education {
 	height: auto;
 	width: 100%;
-	background: url(../images/headers/recentprojback.jpg);
+	background: url(../../assets/designer/headers/recentprojback.jpg);
 	background-size: cover;
 	background-blend-mode: multiply;
 	background-attachment: fixed;
@@ -883,7 +883,7 @@ li div.right{
 .portfolioheader {
 	width: 100%;
 	height: 450px;
-	background-image: url(../images/headers/portfoliohead.png);
+	background-image: url(../../assets/designer/headers/portfoliohead.png);
 	background-size: cover;
 	overflow-x: hidden;
 	background-color: rgba(112,112,112, .95);
@@ -1182,7 +1182,7 @@ li div.right{
 .servicesheader {
 	width: 100%;
 	height: 550px;
-	background-image: url(../images/headers/serviceshead.png);
+	background-image: url(../../assets/designer/headers/serviceshead.png);
 	background-size: cover;
 	overflow-x: hidden;
 	background-color: rgba(112,112,112, .95);
@@ -1397,7 +1397,7 @@ li div.right{
 .contactheader {
 	width: 100%;
 	height: 800px;
-	background-image: url(../images/headers/contacthead.png);
+	background-image: url(../../assets/designer/headers/contacthead.png);
 	background-size: cover;
 	overflow-x: hidden;
 	background-color: rgba(112,112,112, .95);
@@ -1757,7 +1757,7 @@ span.process {
 .servicesheader {
 	width: 100%;
 	height: 480px;
-	background-image: url(../images/headers/serviceshead.png);
+	background-image: url(../../assets/designer/headers/serviceshead.png);
 	background-size: cover;
 	overflow-x: hidden;
 	background-color: rgba(112,112,112, .95);

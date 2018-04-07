@@ -151,7 +151,7 @@ body::-webkit-scrollbar-corner {
 
 .indexheader {
 	min-height: 1080px;
-	background: #555 url(../assets/herobackground5b.jpg);
+	background: #555 url(../../assets/developer/herobackground5b.jpg);
 	background-blend-mode: overlay;
 	background-repeat: no-repeat;
 	background-size: cover;

@@ -151,7 +151,7 @@ body::-webkit-scrollbar-corner {
 
 .indexheader {
 	min-height: 1080px;
-	background: #555 url(../../assets/developer/herobackground5b.jpg);
+	background: #555 url(../../assets/developer/herobackground.jpg);
 	background-blend-mode: overlay;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -175,7 +175,7 @@ body::-webkit-scrollbar-corner {
 .quote h4 {
 	font-size: 1.5rem;
 	color: #b8b8b8;
-	margin-bottom: 15rem;
+	margin-bottom: 17rem;
 }
 
 /* END MAIN HERO STYLES */
@@ -329,11 +329,12 @@ body::-webkit-scrollbar-corner {
 .card img {
 	width: 90%;
 	border-radius: 1rem;
-	box-shadow: 0px 3px 5px rgba(90,90,90,.4);
+	/*box-shadow: 0px 3px 5px rgba(90,90,90,.4);*/
 	transition:  .3s;
 }
 
 .card img:hover {
+
 	transform: translateY(-.5rem);
 }
 

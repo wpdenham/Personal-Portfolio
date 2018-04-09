@@ -408,8 +408,7 @@ body::-webkit-scrollbar-corner {
 /* CONTACT SECTION STYLES */
 
 .indexcontact {
-	position: fixed;
-	z-index: -1; 
+	
 	background: rgb(247,247,247);
     background: -moz-linear-gradient(bottom, rgb(247,247,247) 1%, rgb(188,188,188) 100%);
     background: -webkit-linear-gradient(bottom, rgb(247,247,247) 1%,rgb(188,188,188) 100%);
@@ -457,8 +456,6 @@ footer span, footer p {
 
 /* BEGIN ABOUT PAGE STYLING */
 
-
-
 .aboutheader {
 	height: auto;
 	overflow: hidden;
@@ -501,9 +498,201 @@ footer span, footer p {
 	border-radius: 50%;
 }
 
+/* BEGIN TECH SKILL SECTION STYLING */
+
 .techskills {
-	height: 30rem;
+	padding: 3rem 0 1.5rem 0;
+	text-align: center;
+	background: rgb(247,247,247);
+    background: -moz-linear-gradient(top, rgb(247,247,247) 1%, rgb(188,188,188) 100%);
+    background: -webkit-linear-gradient(top, rgb(247,247,247) 1%,rgb(188,188,188) 100%);
+    background: linear-gradient(to bottom, rgb(247,247,247) 1%,rgb(188,188,188) 100%);
+    
+	
 }
+
+.techskills h3 {
+	margin: 0 0 3rem 0;
+	padding: 0;
+	font-size: 2rem;
+	color: #3CB2A0;
+}
+
+.skills {
+	display: inline-flex;
+	width: auto;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	height: auto;
+	padding-bottom: 4rem;
+}
+
+.skillcontent {
+	
+	width: 50%;
+}
+
+.skillcontent h4 {
+	display: block;
+	margin: 0 0 1rem 0;
+	font-size: 1.4rem;
+	color: #707070;
+	text-align: center;
+}
+
+.skillcontent hr {
+	border: none;
+	width: 60%;
+	height: .15rem;
+	background-color: #a4a4a4;
+}
+
+.skillcontent p {
+	width: 70%;
+	margin: 0 auto;
+	line-height: 2rem;
+	color: #707070;
+}
+
+.skillcontent img {
+	width: 5rem;
+	padding: 1rem 1rem 2rem 1rem;
+	vertical-align: top;
+}
+
+.skillimg {
+	width: 50%;
+	overflow: hidden;
+	border-radius: 1rem;
+}
+
+.skillimg img {
+	width: 100%;
+	border-radius: 1rem;
+	transition: .6s;	
+}
+
+.skillimg:hover img {
+	transform: scale(1.1);
+}
+
+/* END TECH SKILL SECTION STYLING */
+
+/* BEGIN EDUCATION SECTION STYLING */
+
+.educationhr {
+	border: none;
+	width: 80%;
+	height: .15rem;
+	background-color: #c7c7c7;
+}
+
+.educationsection {
+	padding: 2rem 0 4rem 0;
+	text-align: center;
+}
+
+
+.educationsection h3 {
+	margin: 0 0 2rem 0;
+	font-size: 2rem;
+	color: #3CB2A0;
+}
+
+.education {
+	display: inline-flex;
+	width: auto;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: center;
+	align-items: top;
+	height: auto;
+	padding-bottom: .5rem;
+}
+
+.edcontent {
+	width: 30%;
+	line-height: 2rem;
+	background-color: rgba(255,255,255, .2);
+	padding: 1rem;
+	border-radius: 1rem;
+	box-shadow: 0px 3px 5px rgba(0,0,0,.4);
+}
+
+.edcontent p {
+	width: 90%;
+	margin: 1rem auto;
+	color: #666;
+}
+
+.edcontent h5 {
+	font-size: 1.4rem;
+	color: #707070;
+	padding: 0;
+	margin: 0;
+}
+
+.edcontent img {
+	width: 100%;
+	border-radius: .5rem;
+	margin-bottom: 1rem;
+
+}
+
+/* END EDUCATION SECTION STYLING */
+
+/* BEGIN HOBBIES SECTION STYLING */
+
+.passionsection {
+	padding: 3.5rem 0 4rem 0;
+	text-align: center;
+}
+
+
+.passionsection h3 {
+	margin: 0 0 3rem 0;
+	font-size: 2rem;
+	color: #3CB2A0;
+}
+
+.passions {
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	align-items: flex-start;
+	text-align: center;
+}
+
+
+.passion {
+	max-width: 30%;
+	margin: 0 1rem 0 1rem;
+}
+
+.passion img {
+	width: 80%;
+	margin-bottom: 1rem;
+}
+
+.passion p {
+	width: 85%;
+	margin: 0 auto;
+	padding-top: 1rem;
+	line-height: 1.6rem;
+}
+
+.passion hr {
+	border: none;
+	width: 60%;
+	height: .1rem;
+	background-color: #c7c7c7;
+}
+
+/* END HOBBIES SECTION STYLING */
 
 /* END ABOUT PAGE STYLING */
 

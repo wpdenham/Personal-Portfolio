@@ -643,6 +643,54 @@ footer span, footer p {
 
 /* END EDUCATION SECTION STYLING */
 
+/* BEGIN CONTACT LEVEL TWO SECTION STYLING */
+
+.contact.levelTwo {
+	width: 100%;
+	height: auto;
+	padding: 5rem 0;
+	text-align: center;
+	background: rgb(67,206,162);
+    background: -moz-linear-gradient(-45deg, rgb(67,206,162) 2%, rgb(24,90,157) 100%);
+    background: -webkit-linear-gradient(-45deg, rgb(67,206,162) 2%,rgb(24,90,157) 100%);
+    background: linear-gradient(135deg, rgb(67,206,162) 2%,rgb(24,90,157) 100%);
+    background-attachment: fixed;
+}
+
+.contact h3 {
+	font-size: 1.6rem;
+	font-weight: 400;
+	color: #f7f7f7;
+	width: 70%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.contact button {
+	width: auto;
+	height: auto;
+	margin: 2rem 0 0 0;
+	padding: .5rem 2rem;
+	background-color: #ef6700;
+	border: none;
+	border-radius: 3rem;
+	box-shadow: 0px 3px 2px rgba(55,55,55,.3);
+	cursor: pointer;
+	transition: .3s;
+}
+
+.contact a {
+	text-decoration: none;
+	color: #f7f7f7;
+	font-size: 1.5rem;
+}
+
+.contact button:hover {
+	transform: translateY(.2rem);
+}
+
+/* END CONTACT LEVEL TWO SECTION STYLING */
+
 /* BEGIN HOBBIES SECTION STYLING */
 
 .passionsection {

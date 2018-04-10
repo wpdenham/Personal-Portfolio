@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
     <link rel="stylesheet" href="../css/devmain.css">
   </head>
-  <body onload="onload()">
+  <body onload="expandForm()">
 
       <!-- NAVIGATION -->
       	<header class="indexheader">
@@ -77,7 +77,7 @@
       <!-- END PROJECTS INTRO -->
 
       <!-- COMMENT SECTION 1 -->
-      		<section class="feedback levelOne">
+      		<section class="feedback levelTwo">
 		      	<div class="container">
 			      	<blockquote>&ldquo;In a business where first impressions literally make you or break you, having Bill on your side is most beneficial!&rdquo;</blockquote>
 			      	<h4>- Jeff C.</h4>
@@ -113,29 +113,36 @@
       <!-- END ABOUT INTRO -->
 
       <!-- COMMENT SECTION 2 -->
-      		<section class="feedback levelTwo">
+      		<section class="contact levelTwo">
 	      	    <div class="container">
-			      	<blockquote>Some comment from someone nice that sounds good</blockquote>
-			      	<h4>- Someone someone</h4>
+			      	<h3>I am actively seeking a position that would utilize my unique capabilites and would be happy to learn about any available opportunity.</h3>
+			      	<button ><a class="viewMore" id="letsTalk">Let's Talk</a></button>
+			      	
+			      		<div id="contactHidden" class="form formhidden">
+
+							<div class="forminputs">
+								<div class="formcontent">
+			      				<h4>Direct:</h4>
+			      				
+								<a href="tel:708-926-5481">708.926.5481</a>
+								<span>|</span>
+								<a href="mailto: wpdenham@gmail.com">wpdenham@gmail.com</a>
+								
+								<h4>By Message:</h4>
+								<form action="#" method="POST">
+									<input type="text" placeholder="name:">
+									<input type="email" placeholder="email:">
+									<textarea name="message" cols="75" rows="6" placeholder="message:"></textarea>
+									<input type="submit" class="sendbutton" value="SEND">
+								</form>
+							</div>
+							</div>
+						</div>
+					
 			    </div>
 		    </section>
       <!-- END COMMENT SECTION 2 -->
 
-      <!-- CONTACT -->
-	      	<section class="indexcontact">
-				<div class="container">
-
-						
-							<form action="#" method="POST">
-								<input type="text" placeholder="name:">
-								<input type="email" placeholder="email:">
-								<textarea name="message" id="" cols="75" rows="6" placeholder="message:"></textarea>
-								<input type="submit" class="sendbutton" value="SEND">
-							</form>
-
-					</div>
-			</section>
-      <!-- END CONTACT -->
 		</main>
       <!-- FOOTER -->
       		<footer>

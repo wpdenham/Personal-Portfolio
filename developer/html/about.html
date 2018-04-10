@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
     <link rel="stylesheet" href="../css/devmain.css">
   </head>
-  <body>
+  <body onload="slideUp(), expandForm()">
 
       <!-- NAVIGATION -->
       	<header class="aboutheader">
@@ -101,7 +101,7 @@
 
       <!-- EDUCATION SECTION -->
       		<hr class="educationhr">
-	      	<section class="educationsection">
+	      	<section class="educationsection anim animated ">
 			    <div class="container">
 			    	<h3>Education</h3>
 			      	<div class="education">
@@ -133,8 +133,32 @@
       <!-- CONTACT SECTION 2 -->
       		<section class="contact levelTwo">
 	      	    <div class="container">
-			      	<h3>I am actively seeking a position that would utilize my unqiue capabilites and would be happy to learn about any avilable opportunity.</h3>
-			      	<button onclick="expandInfo()"><a href="projects.html" class="viewMore">Let's Talk</a></button>
+			      	<h3>I am actively seeking a position that would utilize my unique capabilites and would be happy to learn about any available opportunity.</h3>
+			      	<button ><a class="viewMore" id="letsTalk">Let's Talk</a></button>
+			      	
+			      		<div id="contactHidden" class="form formhidden">
+
+							<div class="forminputs">
+								<div class="formcontent">
+			      				<h4>Direct:</h4>
+			      				
+								<a href="tel:708-926-5481">708.926.5481</a>
+								<span>|</span>
+								<a href="mailto: wpdenham@gmail.com">wpdenham@gmail.com</a>
+								<hr>
+								
+
+								<h4>By Message:</h4>
+								<form action="#" method="POST">
+									<input type="text" placeholder="name:">
+									<input type="email" placeholder="email:">
+									<textarea name="message" cols="75" rows="6" placeholder="message:"></textarea>
+									<input type="submit" class="sendbutton" value="SEND">
+								</form>
+							</div>
+							</div>
+						</div>
+					
 			    </div>
 		    </section>
       <!-- END CONTACT SECTION 2 -->
@@ -142,6 +166,7 @@
       <!-- INTERESTS SECTION -->
 	      	<section class="passionsection" >
 			    <div class="container">
+			    	<div class="anim animated ">
 			    	<h3>Passions and Interests</h3>
 			    	<div class="passions">
 				    	<div class="passion">
@@ -160,7 +185,7 @@
 					      	<hr>
 					      		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo esse beatae, nihil doloribus dolor perferendis quas voluptatem atque impedit ab nulla omnis libero neque delectus veritatis laborum consequatur repudiandae! Voluptatem?</p>
 					    </div>
-				      	
+				      	</div>
 				    </div>
 			    </div>
 	      	</section>

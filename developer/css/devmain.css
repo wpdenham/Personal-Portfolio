@@ -361,23 +361,22 @@ body::-webkit-scrollbar-corner {
 }
 
 .about {
-	display: flex;
+	display: inline-flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
 	margin: 0 auto;
 	padding: 4rem 0 4rem 0;
 	width: 75%;
 }
 
-.images {
+.aboutimg {
 	width: 50%;
 	text-align: center;
 }
 
-.images img {
+.aboutimg img {
 	margin: .5rem;
-	box-shadow: 0px 3px 5px rgba(90,90,90,.4);
 }
 .content {
 	width: 50%;
@@ -390,11 +389,30 @@ body::-webkit-scrollbar-corner {
 }
 
 .content p {
+	width: 90%;
+	font-size: 1.2rem;
+	margin: 0 auto;
+	line-height: 1.6rem;
 	color: #707070;
 }
 .content ul {
+	width: 40%;
+	margin: 0;
+	padding: 0 0 2rem 0;
+	text-align: center;
+	display: inline-block;
 	list-style-type: none;
 	color: #707070;
+}
+
+.content ul h5 {
+	font-size: 1.2rem;
+	margin: 2rem auto .5rem auto;
+}
+
+.content ul li {
+	font-size: 1.2rem;
+	padding: .2rem;
 }
 
 .content button {
@@ -1128,24 +1146,50 @@ footer span, footer p {
 
 .contactmsg {
 	color: #f0f0f0;
-	display: flex;
+	display: inline-flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-content: center;
-	align-items: center;
+	align-items: top;
+	margin: 0 auto;
 	padding: 4rem 0 4rem 0;
 }
 
 .contactmsgContent {
-	width: 60%;
-	padding-right: 3rem;
+	width: 100%;
+	text-align: center;
 }
 
 .contactmsgContent p {
+	width: 70%;
+	margin: 0 auto;
+	font-size: 1.7rem;
+	line-height: 2.2rem;
+	text-align: center;
+}
+
+.contactmsgContent button {
+	width: auto;
+	height: auto;
+	margin-top: 3rem;
+	padding: .5rem 2rem;
+	background-color: #ef6700;
+	border: none;
+	border-radius: 3rem;
+	box-shadow: 0px 3px 2px rgba(55,55,55,.3);
+	cursor: pointer;
+	transition: .3s;
+}
+
+.contactmsgContent button:hover {
+	transform: translateY(.2rem);
+}
+
+.contactmsgContent a {
 	font-size: 1.4rem;
-	line-height: 3rem;
-	text-align: right;
+	text-decoration: none;
+	color: #f0f0f0;
 }
 
 .contactmsgImg {
@@ -1189,8 +1233,7 @@ footer span, footer p {
 .volunteer a {
 	display: block;
 	color: #f0f0f0;
-	background-color: #ff5733;
-	padding: 0 auto 4rem auto;
+	background-color: #ef6700;
 	margin: 0 auto;
 	width: 12rem;
 	height: 3rem;

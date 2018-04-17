@@ -638,10 +638,34 @@ footer span, footer p {
 
 .skillcontent p {
 	width: 70%;
-	margin: 0 auto;
+	margin: 0 auto 1.25rem auto;
 	line-height: 2rem;
 	color: #707070;
 }
+
+.skillcontent span {
+	font-weight: 600;
+}
+
+.skillcontent button {
+	padding: .5rem 1rem;
+	border: 1px solid #ef6700;
+	border-radius: 2rem;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.skillcontent a {
+	text-decoration: none;
+	color: #ef6700;
+	font-size: 1.2rem;
+}
+
+.skillcontent button:hover {
+	transform: translateY(.2rem);
+}
+
+
 
 .skillcontent img {
 	width: 5rem;

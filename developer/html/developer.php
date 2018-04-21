@@ -1,3 +1,74 @@
+<?php
+use PHPMailer\PHPMailer\PHPMailer;
+require ('/home/karbon7/wpdenham.com/phpmailertesting/vendor/autoload.php');
+//Create a new PHPMailer instance
+//PHPMailer object
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+
+$name = $_POST['name'];
+$email = $_POST['email'];
+$message = $_POST['message'];
+$success = "";
+$error = "";
+
+$mail = new PHPMailer();
+
+$mail->SMTPDebug = 0;
+ 
+// Sender (name is optional)
+$mail->setFrom($email, $name);
+ 
+// Recipient (name is optional)
+$mail->addAddress('bill@wpdenham.com');
+$mail->AddCC('bill@karbonkreationz.com');
+ 
+// Subject 
+$mail->Subject = 'New WPDenham Contact Form Submission';
+
+
+// Send message as HTML
+$mail->isHTML(TRUE);
+
+$mail->Body = $message;
+
+// Plain text alternative
+$mail->AltBody = $message;
+
+
+// Use a custom SMTP server
+$mail->isSMTP();
+ 
+// SMTP host
+$mail->Host = 'secure224.inmotionhosting.com';
+ 
+// SMTP TCP port
+$mail->Port = 25;
+ 
+// Use TSL secure connection
+$mail->SMTPSecure = 'tls';
+
+ 
+// Enable authentication
+$mail->SMTPAuth = TRUE;
+ 
+// SMTP username
+$mail->Username = 'contact@wpdenham.com';
+ 
+// SMTP password
+$mail->Password = 'contact123';
+
+// Send the message 
+if (!$mail->send())
+{
+    $error = "Hmm...something went wrong. Please try again.";
+}else
+{
+    $success = "Message sent. Thank you for reaching out!";
+}
+}
+?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -24,10 +95,10 @@
 				<nav class="mainnav">
 					<ul>
 						<li>
-							<a class="active" href="developer.html">Home</a>
-							<a href="about.html">About</a>
+							<a class="active" href="developer.php">Home</a>
+							<a href="about.php">About</a>
 							<a href="projects.html">Projects</a>
-							<a href="contact.html">Contact</a>
+							<a href="contact.php">Contact</a>
 						</li>
 					</ul>
 				</nav>
@@ -117,9 +188,12 @@
       <!-- END ABOUT INTRO -->
 
       <!-- COMMENT SECTION 2 -->
-      		<section class="contact levelTwo">
+      		<section class="contact levelTwo" id="contactForm">
 	      	    <div class="container">
 			      	<h3>I am actively seeking a position that would utilize my unique capabilites and would be happy to learn about any available opportunity.</h3>
+
+					<div class="success"><?php if ($success != "") echo "$success"; else echo "$error"; ?></div>
+
 			      	<button id="letsTalk"><a class="viewMore">Let's Talk</a></button>
 			      	
 			      		<div id="contactHidden" class="form formhidden">
@@ -133,7 +207,7 @@
 								<a href="mailto: wpdenham@gmail.com">wpdenham@gmail.com</a>
 								<hr>
 								<h4>By Message:</h4>
-								<form action="email.php" method="POST">
+								<form action="#contactForm" method="POST">
 									<input name="name" type="text" placeholder="name:" required>
 									<input name="email" type="email" placeholder="email:" required>
 									<textarea name="message" name="message" id="" cols="75" rows="6" placeholder="message:"></textarea>>
@@ -154,13 +228,13 @@
       			<div class="container""></div>
 				<ul>
 					<li>
-						<a href="developer.html">Home</a>
+						<a href="developer.php">Home</a>
 						<span>|</span>
-						<a href="about.html">About</a>
+						<a href="about.php">About</a>
 						<span>|</span>
 						<a href="projects.html">Projects</a>
 						<span>|</span>
-						<a href="contact.html">Contact</a>
+						<a href="contact.php">Contact</a>
 					</li>
 				</ul>
 				<p>copyright 2018 | WPDENHAM</p>

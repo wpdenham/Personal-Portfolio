@@ -344,6 +344,7 @@ body::-webkit-scrollbar-corner {
 .feedback h4 {
 	color: #f0f0f0;
 	font-size: 1.5rem;
+	font-weight: 300;
 	margin: 0;
 	padding-bottom: 7rem;
 }
@@ -784,6 +785,8 @@ footer span, footer p {
 	text-shadow: 0px 3px 2px rgba(55,55,55,.4);
 }
 
+
+
 .contact button {
 	width: auto;
 	height: auto;
@@ -1169,6 +1172,7 @@ footer span, footer p {
 }
 
 .contactmsg {
+	width: 100%;
 	color: #f0f0f0;
 	display: inline-flex;
 	flex-direction: row;
@@ -1185,13 +1189,16 @@ footer span, footer p {
 	text-align: center;
 }
 
-.contactmsgContent p {
+.contactmsgContent h3 {
+	font-size: 1.6rem;
+	font-weight: 400;
+	color: #f7f7f7;
 	width: 70%;
-	margin: 0 auto;
-	font-size: 1.7rem;
-	line-height: 2.2rem;
 	text-align: center;
+	margin: 0 auto;
+	text-shadow: 0px 3px 2px rgba(55,55,55,.4);
 }
+
 
 .contactmsgContent button {
 	width: auto;
@@ -1216,15 +1223,50 @@ footer span, footer p {
 	color: #f0f0f0;
 }
 
-.contactmsgImg {
-	width: 30%;
+.forminputs {
+	width: 100%;
+	color: #f0f0f0;
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+	margin: 0 auto;
 }
 
-.contactmsgImg img {
-	width: 80%;
-	border: 5px solid #168185;
-	border-radius: 50%;
+.phone{
+	width: 45%;
 }
+
+.phone img {
+	width: 20%;
+	margin: 0 auto;
+}
+
+.phone a {
+	
+	text-decoration: none;
+	color: #f0f0f0;
+	text-align: center;
+}
+
+.mail{
+	width: 45%;
+}
+
+.mail img {
+	width: 20%;
+	margin: 0 auto 1rem auto;
+	text-align: center;
+}
+
+.mail a {
+	
+	text-decoration: none;
+	color: #f0f0f0;
+	text-align: center;
+}
+
 
 .volunteersection {
 	margin: 0;
@@ -1295,7 +1337,7 @@ div.formhidden {
 	align-content: center;
 	align-items: top;
 	padding: 2rem 4rem;
-	animation-duration: 1.7s;
+	animation-duration: 3.7s;
 	animation-fill-mode: ease-in-out;
 }
 
@@ -1335,7 +1377,7 @@ div.formhidden {
 	margin: 0 auto;
 	max-height: 40rem;
 	width: auto;
-	animation: smoothentry 1.3s ease-in-out;
+	animation: smoothentry 1.8s ease-in-out;
 }
 
 .form h4 {
@@ -1421,6 +1463,15 @@ div.formhidden {
 
 .sendbutton:hover {
 	transform: translateY(.2rem);
+}
+
+.success {
+	font-size: 1.6rem;
+	font-weight: 700;
+	color: #f7f7f7;
+	width: 70%;
+	text-align: center;
+	margin: 1rem auto 0 auto;
 }
 
 /* END GENERAL CONTACT FORM STYLING */

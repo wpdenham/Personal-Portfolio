@@ -160,6 +160,17 @@ footer ul li a {
 	display: inline-block;
 }
 
+footer ul li a:first-child {
+	margin-left: 0;
+}
+
+footer ul li a:first-child:hover {
+	text-decoration: none;
+	color: #ff5733;
+	margin: 15px 25px 0px 0px;
+	display: inline-block;
+}
+
 footer ul li a:hover {
 	text-decoration: none;
 	color: #ff5733;
@@ -170,6 +181,8 @@ footer ul li a:hover {
 footer span, footer p {
 	color: #f0f0f0;
 }
+
+
 /*END GENERAL STYLING*/
 
 /* BEGIN CUSTOM SCROLLBAR STYLING*/
@@ -267,10 +280,6 @@ body::-webkit-scrollbar-corner {
 	-moz-grid-template-columns: repeat(3, 1fr);
 	-moz-grid-column-gap: 3em;
 	width: 100%;
-
-}
-
-.qualitygrid.fadeInUp {
 
 }
 
@@ -413,10 +422,13 @@ body::-webkit-scrollbar-corner {
 	padding: 0px 50px;
 }
 
+.headshot {
+	margin-top: .5rem;
+	width: 100%;
+}
+
 .headshot img{
-	padding-top: 30px;
-	width: 360px;
-	height: 360px;
+	width: 100%;
 	text-align: center;
 }
 
@@ -485,6 +497,15 @@ body::-webkit-scrollbar-corner {
 
 .sendbutton:hover {
 	box-shadow: 0px 0px 6px rgba(0,0,0,.9);
+}
+
+.col2 .success {
+	font-size: 1.6rem;
+	font-weight: 700;
+	color: #ff5733;
+	width: 70%;
+	text-align: center;
+	margin: 1rem auto 0 auto;
 }
 
 
@@ -1408,9 +1429,8 @@ li div.right{
 /*BEGIN CONTACT ME SECTION STYLING*/
 
 .contcontactme {
-	height: 500px;
+	margin-top: 3rem;
 	width: 100%;
-	margin-top: -500px;
 }
 
 .contcontactgrid {
@@ -1691,14 +1711,785 @@ span.process {
 
 
 
+@media screen and (max-width: 991px) and (min-width: 768px){
 
-@media screen and (max-width: 1600px){
+}
+
+@media screen and (max-width: 1179px) and (min-width: 992px) {
+
+.container {
+	width: 92%;
+}
+
+
+/* BEGIN NAVIGATION GENERAL RESPONSIVE STYLING */
+
+.mainnav ul li a {
+	margin-right: 5rem;
+}
+
+.mainnav ul li a:last-child {
+	text-decoration: none;
+	margin-right: 0px;
+}
+
+.divideline {
+	width: 90%;
+	margin: 0 auto;
+	border: 1.5px solid #b8b8b8;
+}
+
+/* END NAVIGATION GENERAL RESPONSIVE STYLING */
+
+/* BEGIN HOME PAGE RESPONSIVE STYLING */
+
+.indexheader {
+	height: 800px;
+	overflow: hidden;
+}
+
+.quote {
+	margin-top: 5rem;
+}
+
+.qualitygrid {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-row-gap: 2rem;
+	-moz-display: grid;
+	-moz-grid-template-columns: repeat(1, 1fr);
+	-moz-grid-row-gap: 2rem;
+	width: 100%;
+}
+
+.maincard p {
+	line-height: 2rem;
+}
+
+.portgridhome {
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat (4, 1fr);
+	grid-gap: 1.5rem;
+	-moz-grid-template-columns: repeat(2, 1fr);
+	-moz-grid-template-rows: repeat (4, 1fr);
+	-moz-grid-gap: 1.5rem;
+	width: 92%;
+}
+
+.projitemin {
+	opacity: 1;
+	background: rgba(0,0,0,.85);
+	position: absolute;
+	top: 80%;
+	left: 0;
+	width: 100%;
+	height: 20%;
+	cursor: pointer;
+	border-radius: 0 0 10px 10px;
+}
+
+.projitemin h5 {
+	color: #b8b8b8;
+	font-size: 1.4rem;
+	text-align: center;
+	padding-top: 0px;
+	margin-top: 1rem;
+	margin-bottom: 0px;
+}
+
+.projitemin p {
+	color: #b8b8b8;
+	font-size: 1.125rem;
+	text-align: center;
+	margin-top: 0px;
+}
+
+
+.projitemout:hover .projitemin {
+	border-radius: 0 0 10px 10px;
+	background: rgba(0,0,0,.85);
+}
+
+.indexcontactgrid {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-row-gap: 1rem;
+	-moz-display: grid;
+	-moz-grid-template-columns: repeat(1, 1fr);
+	-moz-grid-row-gap: 1rem;
+	width: 95%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.col2 {
+	padding: 0;
+}
+
+.col2 h5 {
+	width: 90%;
+	margin: .5rem auto 0 auto;
+}
+
+.headshot img {
+	margin: 0 auto;
+	width: 60%;
+	height: auto;
+}
+
+/* END HOME PAGE RESPONSIVE STYLING */	
+
+/* BEGIN ABOUT PAGE RESPONSIVE STYLING */
+
+.aboutheader {
+	height: 760px;
+}
+
+.aboutcontactgrid {
+	width: 100%;
+	margin: 20px auto 0px auto;
+}
+
+.aboutgridcol1 {
+	text-align: center;
+}
+
+.aboutgridcol1 img{
+	padding-top: 2.5rem;
+	width: 80%;
+}
+
+.aboutgridcol2 {
+	padding-left: 1rem;
+	padding-right: 2rem;
+}
+
+.aboutgridcol2 p {
+	line-height: 2rem;
+	font-size: 1.2rem;
+}
+
+h4.signature {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.skillsetgrid {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	-moz-display: grid;
+	-moz-grid-template-columns: repeat(1, 1fr);
+	margin: 0 auto;
+}
+
+.skillset ul li {
+	font-size: 1.125rem;
+}
+
+.skillset {
+	margin-top: -80px;
+	padding: 20px 10px;
+}
+
+
+.technical h3 {
+	margin-top: 0;
+}
+
+.technicalgrid {
+	width: 100%;
+}
+
+.edgrid {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-row-gap: .5rem;
+	-moz-display: grid;
+	-moz-grid-template-columns: repeat(1, 1fr);
+	margin: 0 auto;
+}
+
+.edcard {
+	margin-bottom: 1rem;
+	width: 100%;
+}
+
+.edcard:last-child {
+	margin-bottom: 3rem;
+}
+
+.edcard h4 {
+	margin-top: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+.edcard p {
+	font-size: 1.2rem;
+	line-height: 2rem;
+	width: 90%;
+	margin: 0 auto;
+	padding-bottom: 1.5rem;
+}
+
+.edcard i {
+	margin-top: 1.75rem;
+}
+
+.edcard button {
+	margin-bottom: 1.5rem;
+}
+
+.timeline ul li {
+	font-size: 1.3rem;
+}
+
+.timeline ul li div.right {
+	width: 400px;
+}
+
+.timecard {
+	width: 100%;
+}
+
+/* END ABOUT PAGE RESPONSIVE STYLING */	
+
+
+/* BEGIN PORTFOLIO PAGE RESPONSIVE STYLING */
+
+.portgrid {
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat (4, 1fr);
+	grid-gap: 1.5rem;
+	-moz-grid-template-columns: repeat(2, 1fr);
+	-moz-grid-template-rows: repeat (4, 1fr);
+	-moz-grid-gap: 1.5rem;
+	width: 100%;
+}
+
+.numbersgrid {
+	grid-template-columns: repeat(1, 1fr);
+	grid-template-rows: repeat (4, 1fr);
+	grid-gap: 1.5rem;
+	-moz-grid-template-columns: repeat(2, 1fr);
+	-moz-grid-template-rows: repeat (4, 1fr);
+	-moz-grid-gap: 1.5rem;
+	width: 100%;
+}
+
+.numberitem {
+	width: 95%;
+}
+
+/* END PORTFOLIO PAGE RESPONSIVE STYLING */
+
+.contcontactgrid {
+	display: block;
+}
+
+.contcontactgrid .col1 {
+	display: none;
+}
+
+.contcontactgrid .col2 {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.volunteer h3 {
+	padding-top: 1rem;
+}
+
+.volunteer p {
+	width: 100%;
+	font-size: 1.125rem;
+}	
+
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1180px){
+
+.container {
+	width: 90%;
+}
+
+/* BEGIN HOME PAGE RESPONSIVE STYLING */
+
+.indexheader {
+	height: 760px;
+	overflow: hidden;
+}
+
+.quote {
+	width: 100%;
+	margin-top: 5rem;
+}
+
+.quote blockquote {
+	font-size: 3rem;
+	margin-top: 0;
+}
+
+.qualitygrid {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-row-gap: 2rem;
+	-moz-display: grid;
+	-moz-grid-template-columns: repeat(1, 1fr);
+	-moz-grid-row-gap: 2rem;
+	width: 100%;
+}
+
+.portgridhome {
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat (4, 1fr);
+	grid-gap: 1.5rem;
+	-moz-grid-template-columns: repeat(2, 1fr);
+	-moz-grid-template-rows: repeat (4, 1fr);
+	-moz-grid-gap: 1.5rem;
+	width: 92%;
+}
+
+.projitemin {
+	opacity: 1;
+	background: rgba(0,0,0,.85);
+	position: absolute;
+	top: 80%;
+	left: 0;
+	width: 100%;
+	height: 20%;
+	cursor: pointer;
+	border-radius: 0 0 10px 10px;
+}
+
+.projitemin h5 {
+	color: #b8b8b8;
+	font-size: 1.75rem;
+	text-align: center;
+	padding-top: 0px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+.projitemin p {
+	color: #b8b8b8;
+	font-size: 1.5rem;
+	text-align: center;
+	margin-top: 0px;
+}
+
+
+.projitemout:hover .projitemin {
+	border-radius: 0 0 10px 10px;
+	background: rgba(0,0,0,.85);
+}
+
+.indexcontactgrid {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-row-gap: 1rem;
+	-moz-display: grid;
+	-moz-grid-template-columns: repeat(1, 1fr);
+	-moz-grid-row-gap: 1rem;
+	width: 95%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.col2 h5 {
+	margin-top: .5rem;
+}
+
+.headshot img {
+	margin: 0 auto;
+	width: 60%;
+	height: auto;
+}
+
+/* END HOME PAGE RESPONSIVE STYLING */	
+
+/* BEGIN ABOUT PAGE RESPONSIVE STYLING */	
+
+.aboutheader {
+	height: 800px;
+}
+
+.aboutcontactgrid {
+	width: 100%;
+	margin: 20px auto 0px auto;
+}
+
+.aboutgridcol1 {
+	text-align: center;
+}
+
+.aboutgridcol1 img{
+	width: 80%;
+}
+
+.aboutgridcol2 {
+	padding-left: 1rem;
+	padding-right: 2rem;
+}
+
+.aboutgridcol2 p {
+	line-height: 2.5rem;
+	font-size: 1.2rem;
+}
+
+h4.signature {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.skillset {
+	padding: 20px 10px;
+}
+
+.skillsetgrid {
+	width: 100%;
+}
+
+.technical h3 {
+	margin-top: 0;
+}
+
+.technicalgrid {
+	width: 100%;
+}
+
+.edgrid {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-row-gap: .5rem;
+	-moz-display: grid;
+	-moz-grid-template-columns: repeat(1, 1fr);
+	margin: 0 auto;
+}
+
+.edcard {
+	margin-bottom: 1rem;
+	width: 100%;
+}
+
+.edcard:last-child {
+	margin-bottom: 3rem;
+}
+
+.edcard h4 {
+	margin-top: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+.edcard p {
+	font-size: 1.2rem;
+	width: 90%;
+	margin: 0 auto;
+	padding-bottom: 1.5rem;
+}
+
+.edcard i {
+	margin-top: 1.75rem;
+}
+
+.edcard button {
+	margin-bottom: 1.5rem;
+}
+
+/* END ABOUT PAGE RESPONSIVE STYLING */	
+
+/* BEGIN PORTFOLIO PAGE RESPONSIVE STYLING */
+
+.portgrid {
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat (4, 1fr);
+	grid-gap: 1.5rem;
+	-moz-grid-template-columns: repeat(2, 1fr);
+	-moz-grid-template-rows: repeat (4, 1fr);
+	-moz-grid-gap: 1.5rem;
+	width: 100%;
+}
+
+.numbersgrid {
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat (4, 1fr);
+	grid-gap: 1.5rem;
+	-moz-grid-template-columns: repeat(2, 1fr);
+	-moz-grid-template-rows: repeat (4, 1fr);
+	-moz-grid-gap: 1.5rem;
+	width: 100%;
+}
+
+.numberitem {
+	width: 90%;
+}	
+
+/* END PORTFOLIO PAGE RESPONSIVE STYLING */	
+
+/* BEGIN CONTACT PAGE RESPONSIVE STYLING */
+
+.contcontactgrid {
+	display: block;
+}
+
+.contcontactgrid .col1 {
+	display: none;
+}
+
+.contcontactgrid .col2 {
+	width: 90%;
+	margin: 0 auto;
+
+}
+
+.volunteer h3 {
+	padding-top: 1rem;
+}
+
+.volunteer p {
+	width: 100%;
+	font-size: 1.35rem;
+}	
+
+/* END CONTACT PAGE RESPONSIVE STYLING */	
+}
+
+@media screen and (max-width: 1399px) and (min-width: 1281px){
+
+.container {
+	width: 85%;
+}
+
+/* BEGIN HOME PAGE RESPONSIVE STYLING */
+
+.indexheader {
+	height: 790px;
+}
+
+.quote {
+	margin-top: 100px;
+}
+
+.quote blockquote {
+	font-size: 2.9rem;
+	margin: 50px 0 -10px 0;
+}	
+
+.qualitygrid {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-row-gap: 2rem;
+	-moz-display: grid;
+	-moz-grid-template-columns: repeat(1, 1fr);
+	-moz-grid-row-gap: 2rem;
+	width: 100%;
+}
+
+.portgridhome {
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat (4, 1fr);
+	grid-gap: 1.5rem;
+	-moz-grid-template-columns: repeat(2, 1fr);
+	-moz-grid-template-rows: repeat (4, 1fr);
+	-moz-grid-gap: 1.5rem;
+	width: 92%;
+}
+
+.projitemin {
+	opacity: 1;
+	background: rgba(0,0,0,.85);
+	position: absolute;
+	top: 80%;
+	left: 0;
+	width: 100%;
+	height: 20%;
+	cursor: pointer;
+	border-radius: 0 0 10px 10px;
+}
+
+.projitemin h5 {
+	color: #b8b8b8;
+	font-size: 1.75rem;
+	text-align: center;
+	padding-top: 0px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+.projitemin p {
+	color: #b8b8b8;
+	font-size: 1.5rem;
+	text-align: center;
+	margin-top: 0px;
+}
+
+
+.projitemout:hover .projitemin {
+	border-radius: 0 0 10px 10px;
+	background: rgba(0,0,0,.85);
+}
+
+.indexcontactgrid {
+	width: 100%;
+}
+
+.col1 {
+	width: 100%;
+}
+
+.headshot img {
+	margin-top: 1.5rem;
+	width: 95%;
+	height: auto;
+}
+/* END HOME PAGE RESPONSIVE STYLING */
+
+/* BEGIN ABOUT PAGE RESPONSIVE STYLING */
+
+.aboutheader {
+	height: 860px;
+}
+
+.aboutcontactgrid {
+	width: 100%;
+	margin: 20px auto 0px auto;
+}
+
+.aboutgridcol1 img{
+	width: 100%;
+	margin-top: 1rem;
+}
+
+.aboutgridcol2 {
+	padding-right: 0;
+}
+
+.aboutgridcol2 p {
+	font-size: 1.2rem;
+}
+
+h4.signature {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.skillset {
+	padding: 20px 10px;
+}
+
+.skillsetgrid {
+	width: 100%;
+}
+
+.technical h3 {
+	margin-top: 0;
+}
+
+.technicalgrid {
+	width: 100%;
+}
+
+.edgrid {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-row-gap: .5rem;
+	-moz-display: grid;
+	-moz-grid-template-columns: repeat(1, 1fr);
+	margin: 0 auto;
+}
+
+.edcard {
+	margin-bottom: 1rem;
+	width: 100%;
+}
+
+.edcard:last-child {
+	margin-bottom: 3rem;
+}
+
+.edcard h4 {
+	margin-top: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+.edcard p {
+	padding-bottom: 1rem;
+}
+
+.edcard i {
+	margin-top: 1.75rem;
+}
+
+.edcard button {
+	margin-bottom: 1.5rem;
+}
+
+/* END ABOUT PAGE RESPONSIVE STYLING */	
+
+/* BEGIN PORTFOLIO PAGE RESPONSIVE STYLING */
+
+.portgrid {
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat (4, 1fr);
+	grid-gap: 1.5rem;
+	-moz-grid-template-columns: repeat(2, 1fr);
+	-moz-grid-template-rows: repeat (4, 1fr);
+	-moz-grid-gap: 1.5rem;
+	width: 100%;
+}
+
+.numbersgrid {
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat (4, 1fr);
+	grid-gap: 1.5rem;
+	-moz-grid-template-columns: repeat(2, 1fr);
+	-moz-grid-template-rows: repeat (4, 1fr);
+	-moz-grid-gap: 1.5rem;
+	width: 100%;
+}
+
+.numberitem {
+	width: 90%;
+}
+
+/* END PORTFOLIO PAGE RESPONSIVE STYLING */	
+
+/* BEGIN CONTACT PAGE RESPONSIVE STYLING */
+
+.col1 img{
+	margin-top: 0;
+	/*padding-top: 3.2em;*/
+	width: 95%;
+	height: 95%;
+}
+
+.volunteer h3 {
+	padding-top: 1rem;
+}
+
+.volunteer p {
+	width: 100%;
+	font-size: 1.35rem;
+}
+
+/* END CONTACT PAGE RESPONSIVE STYLING */	
+}
+
+
+
+
+
+@media screen and (max-width: 1600px) and (min-width: 1400px){
 
 /* NAVIGATION */
 
 
+
 .mainnav ul li a {
-	margin-right: 3.0em;
+	margin-right: 6.0em;
 }
 
 .mainnav ul li a:last-child {
@@ -1714,231 +2505,85 @@ span.process {
 
 /* NAVIGATION */
 
-/* DEVELOPER SIDE BUTTON */
+/* BEGIN HOME PAGE RESPONSIVE STYLING */
 
-.developer {
-	display: inline;
-	padding: 10px 20px 10px 20px;
-	width: auto;
-	background-color: #ff5733;
-	position: absolute;
-	top: 98%;
-	right: 0px;
-	float: right;
-	border-radius: 25px 0px 0px 25px;
-	box-shadow: 0px 3px 3px rgba(0,0,0,.4);
-	
-	z-index: 100;
+.qualitygrid {
+	grid-column-gap: 1.5rem;
 }
 
-
-.developer i {
-	padding-right: 10px;
-	color: #f0f0f0;
+.maincard {
+	padding: 0px 20px 20px 20px;
 }
 
-.developer a::after {
-	content: 'DEVELOPER';
-	text-decoration: none;
-	color: #f0f0f0;
-	font-weight: 700;
-	font-family: 'Montserrat', sans-serif;
-}
-
-.developer a {
-	text-decoration: none;
-	color: #f0f0f0;
-	font-weight: 700;
-}
-
-/* DEVELOPER SIDE BUTTON */
-
-/*BEGIN SERVICES STYLING*/
-.servicesheader {
-	width: 100%;
-	height: 480px;
-	background-image: url(../../assets/designer/headers/serviceshead.png);
-	background-size: cover;
-	overflow-x: hidden;
-	background-color: rgba(112,112,112, .95);
-	background-blend-mode: multiply;
-	border-bottom: 4px solid #ff5733;
-}
-
-
-.services {
-	width: 100%;
-	margin: 0 auto;
-	text-align: center;
-}
-
-.servicesgrid {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	grid-gap: 2rem;
-	-moz-display: grid;
-	-moz-grid-template-columns: repeat(2, 1fr);
-	-moz-grid-gap: 2rem;
-}
-
-.services h3 {
-	font-size: 2rem;
-	/*padding-top: 10px;*/
-	color: #ffffff;
-	margin-top: -180px;
-	text-align: center;
-}
-
-/*BEGIN SERVICE CARD SECTION STYLING*/
-
-.servicecard {
-	background-color: #ffffff;
-	border-radius: 10px;
-	height: 550px;
-	margin-top: 20px;
-	margin-bottom: 0px;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	box-shadow: 0px 3px 3px rgba(0,0,0,.3);
+.indexcontactgrid {
 	width: 100%;
 }
 
-.servicecard img{
-	border-radius: 10px 10px 0px 0px;
-	padding-bottom: 5px;
-	opacity: .6;
-	transition-property: opacity;
-	transition: all .4s ease-in-out;
-	width: 100%;
-}
-.servicecard img:hover{
-	border-radius: 10px 10px 0px 0px;
-	padding-bottom: 5px;
-	opacity: 1;
+.col1 {
 	width: 100%;
 }
 
-.servicecard h4 {
-	color: #ff5733;
-	font-size: 1.5em;
-	font-weight: 600;
-	margin-bottom: 0;
-	margin-top: 10px;
-}
-
-.servicecard p {
-	width: 90%;
-	line-height: 1.625em;
-	font-size: 1rem;
-	margin: 10px auto 20px;
-}
-
-.servicesspan {
-	width: 60%;
-	height: 2px;
-	margin: 10px auto;
-	background-color:#b8b8b8;
-}
-
-.servicecard ul{
-	list-style-type: none;
-	margin: 0 auto;
-	padding-top: 1.5%;
-	padding-left: 0;
-	line-height: 1.4em;
-	font-size: 1.25rem;
-}
-
-/*END SERVICE CARD SECTION STYLING*/
-
-/*BEGIN CONTACT ME SECTION STYLING*/
-
-.servicecontactme {
-	height: 440px;
-	margin-top: 50px;
-	background-color: #b8b8b8;
-}
-
-.servicegrid {
+.headshot {
+	margin-top: 2rem;
 	width: 100%;
-	margin: 0 auto;
-	display: grid;
-	grid-template-columns: 1fr 2fr;
-	grid-template-rows: repeat(1, 1fr);
-	grid-gap: 1em;
-	-moz-display: grid;
-	-moz-grid-template-columns: 1fr 2fr;
-	-moz-grid-gap: 1em;
 }
 
-.col2 .servicesh5 {
+
+/* END HOME PAGE RESPONSIVE STYLING */
+
+/* BEGIN ABOUT PAGE RESPONSIVE STYLING */
+
+.aboutcontactgrid {
+	width: 100%;
+	margin: 20px auto 40px auto;
+}
+
+.aboutgridcol1 img{
+	padding-top: 10px;
+}
+
+.aboutgridcol2 {
+	padding-right: 0;
+}
+
+h4.signature {
 	margin-top: 0;
-	padding-top: 20px;
-	font-size: 1.5rem;
-	margin-bottom: 0px;
-	color: #707070;
-	text-align: center;
 }
 
-.col2 .servicesp {
-	font-size: 1.375rem;
-	color: #f0f0f0;
-	margin-top: 10px;
-	text-align: center;
-}
-
-
-.sendbutton {
-	font-size: 1.125rem;
-	color: #f0f0f0;
-	width: 97.5%;
-	height: 40px;
-	background-color: #ff5733;
-	padding-left: 10px;
-	border: none;
-	border-radius: 5px;
-	text-align: center;
-	cursor: pointer;
-	transition-property: box-shadow;
-	transition: all .2s ease-in-out;
-	
-}
-
-.sendbutton:hover {
-	box-shadow: 0px 0px 6px rgba(0,0,0,.9);
-}
-
-.sendbutton {
-	font-size: 1.125rem;
-	color: #f0f0f0;
+.skillsetgrid {
 	width: 100%;
-	height: 40px;
-	background-color: #ff5733;
-	padding-left: 10px;
-	border: none;
-	border-radius: 5px;
-	cursor: pointer;
-	transition-property: box-shadow;
-	transition: all .2s ease-in-out;
 }
 
-.sendbutton:hover {
-	box-shadow: 0px 0px 6px rgba(0,0,0,.9);
+.technical h3 {
+	margin-top: 0;
+}
+
+.technicalgrid {
+	width: 100%;
+}
+
+.edgrid {
+	width: 100%;
+}
+
+.edcard {
+	width: 95%;
 }
 
 
+/* END ABOUT PAGE RESPONSIVE STYLING */
 
-/*END CONTACT ME SECTION STYLING*/
 
-/*END SERVICES STYLING*/
+/* BEGIN CONTACT PAGE RESPONSIVE STYLING */
 
-/* CONTACT PAGE */
+.contactheader {
+	height: auto;
+}
 
 .contcontactme {
-	height: 500px;
+	margin-top: 2rem;
+	margin-bottom: 4rem;
 	width: 100%;
-	margin-top: -500px;
 }
 
 .contcontactgrid {
@@ -1946,7 +2591,7 @@ span.process {
 	margin: 0 auto;
 	display: grid;
 	grid-template-columns: 1fr 2fr;
-	grid-template-rows: repeat(2, 1fr);
+	grid-template-rows: repeat(1, 1fr);
 	grid-gap: 1em;
 	-moz-display: grid;
 	-moz-grid-template-columns: 1fr 2fr;
@@ -1959,6 +2604,7 @@ span.process {
 }
 
 .col1 img{
+	padding-top: .5rem;
 	/*padding-top: 3.2em;*/
 	width: 95%;
 	height: 95%;
@@ -2053,7 +2699,7 @@ span.process {
 }
 
 .volunteer p{
-	width: 85%;
+	width: 95%;
 	font-size: 1.25rem;
 	color: #707070;
 	margin: 0 auto;
@@ -2076,6 +2722,8 @@ span.process {
 	cursor: pointer;
 	/*text-align: center;*/
 }
-/* CONTACT PAGE */
-/*END MEDIA QUERY*/
+
+/* END CONTACT PAGE RESPONSIVE STYLING */
 }
+
+/*END MEDIA QUERIES*/

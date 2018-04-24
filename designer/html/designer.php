@@ -74,6 +74,7 @@ if (!$mail->send())
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>WP | DENHAM  Graphic Designer</title>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600|Rock+Salt" rel="stylesheet">
@@ -103,6 +104,11 @@ if (!$mail->send())
 			</ul>
 		</nav>
 	</div>
+	<div class="hamnav">
+			<div class="bar bar1"></div>
+			<div class="bar bar2"></div>
+			<div class="bar bar3"></div>
+		</div>
 			<div class="divideline"></div>
 	<div class="container">	
 			<div class="quote animated fadeInUp">

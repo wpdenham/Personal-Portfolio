@@ -169,10 +169,6 @@ body::-webkit-scrollbar-corner {
 	background: #5c5c5c; 
 	background-image: linear-gradient(to top right, rgba(0,0,0,.5), rgba(11,135,147,.6)),
 					  url(../../assets/developer/herobackground.jpg);
-	background-image: -webkit-linear-gradient(to top right, rgba(0,0,0,.5), rgba(11,135,147,.6)),
-					  url(../../assets/developer/herobackground.jpg);
-	background-image: -moz-linear-gradient(to top right, rgba(0,0,0,.5), rgba(11,135,147,.6)),
-					  url(../../assets/developer/herobackground.jpg);
 	background-image: -o-linear-gradient(to top right, rgba(0,0,0,.5), rgba(11,135,147,.6)),
 					  url(../../assets/developer/herobackground.jpg);
 	background-blend-mode: overlay;
@@ -246,7 +242,9 @@ body::-webkit-scrollbar-corner {
 
 .card img:hover {
 
-	transform: translateY(-.5rem);
+	-webkit-transform: translateY(-.5rem);
+
+	        transform: translateY(-.5rem);
 }
 
 .card h4 {
@@ -296,7 +294,8 @@ body::-webkit-scrollbar-corner {
 }
 
 .projects button:hover {
-	transform: translateY(.2rem);
+	-webkit-transform: translateY(.2rem);
+	        transform: translateY(.2rem);
 }
 
 .projects .viewMore {
@@ -315,8 +314,6 @@ body::-webkit-scrollbar-corner {
 	text-shadow: 0px 3px 2px rgba(55,55,55,.5);
 	height: auto;        
 	background: rgb(67,206,162);
-    background: -moz-linear-gradient(-45deg, rgb(67,206,162) 2%, rgb(24,90,157) 100%);
-    background: -webkit-linear-gradient(-45deg, rgb(67,206,162) 2%,rgb(24,90,157) 100%);
     background: linear-gradient(135deg, rgb(67,206,162) 2%,rgb(24,90,157) 100%);
     background-attachment: fixed;
 }
@@ -327,8 +324,6 @@ body::-webkit-scrollbar-corner {
 	text-shadow: 0px 3px 2px rgba(55,55,55,.5);
 	height: auto;        
 	background: rgb(67,206,162);
-    background: -moz-linear-gradient(-45deg, rgb(24,90,157) 12%, rgb(67,206,162) 100%);
-    background: -webkit-linear-gradient(-45deg, rgb(24,90,157) 12%,rgb(67,206,162) 100%);
     background: linear-gradient(145deg, rgb(24,90,157) 12%,rgb(67,206,162) 100%);
     background-attachment: fixed;
 }
@@ -355,8 +350,6 @@ body::-webkit-scrollbar-corner {
 
 .aboutmain {
 	background: rgb(247,247,247);
-    background: -moz-linear-gradient(bottom, rgb(247,247,247) 1%, rgb(188,188,188) 100%);
-    background: -webkit-linear-gradient(bottom, rgb(247,247,247) 1%,rgb(188,188,188) 100%);
     background: linear-gradient(to top, rgb(247,247,247) 1%,rgb(188,188,188) 100%);
     text-align: center;
 }
@@ -434,7 +427,8 @@ body::-webkit-scrollbar-corner {
 }
 
 .content button:hover {
-	transform: translateY(.2rem);
+	-webkit-transform: translateY(.2rem);
+	        transform: translateY(.2rem);
 }
 
 .content a {
@@ -456,8 +450,6 @@ body::-webkit-scrollbar-corner {
 	padding: 5rem 0;
 	text-align: center;
 	background: rgb(67,206,162);
-    background: -moz-linear-gradient(-45deg, rgb(24,90,157) 12%, rgb(67,206,162) 100%);
-    background: -webkit-linear-gradient(-45deg, rgb(24,90,157) 12%,rgb(67,206,162) 100%);
     background: linear-gradient(145deg, rgb(24,90,157) 12%,rgb(67,206,162) 100%);
     background-attachment: fixed;
 }
@@ -492,7 +484,8 @@ body::-webkit-scrollbar-corner {
 }
 
 .devcontact button:hover {
-	transform: translateY(.2rem);
+	-webkit-transform: translateY(.2rem);
+	        transform: translateY(.2rem);
 }
 
 /* END CONTACT SECTION STYLES */
@@ -544,10 +537,6 @@ footer span, footer p {
 	background: #555; 
 	background-image: linear-gradient(to bottom right, rgba(14,0,54,.4), rgba(11,135,147,.6)),
 					  url(../../assets/developer/herobackground9.jpg);
-	background-image: -webkit-linear-gradient(to bottom right, rgba(14,0,54,.4), rgba(11,135,147,.6)),
-					  url(../../assets/developer/herobackground9.jpg);
-	background-image: -moz-linear-gradient(to bottom right, rgba(14,0,54,.4), rgba(11,135,147,.6)),
-					  url(../../assets/developer/herobackground9.jpg);
 	background-image: -o-linear-gradient(to bottom right, rgba(14,0,54,.4), rgba(11,135,147,.6)),
 					  url(../../assets/developer/herobackground9.jpg);
 	background-blend-mode: overlay;
@@ -594,8 +583,6 @@ footer span, footer p {
 	padding: 3rem 0 1.5rem 0;
 	text-align: center;
 	background: rgb(247,247,247);
-    background: -moz-linear-gradient(top, rgb(247,247,247) 1%, rgb(188,188,188) 100%);
-    background: -webkit-linear-gradient(top, rgb(247,247,247) 1%,rgb(188,188,188) 100%);
     background: linear-gradient(to bottom, rgb(247,247,247) 1%,rgb(188,188,188) 100%);
 }
 
@@ -663,7 +650,8 @@ footer span, footer p {
 }
 
 .skillcontent button:hover {
-	transform: translateY(.2rem);
+	-webkit-transform: translateY(.2rem);
+	        transform: translateY(.2rem);
 }
 
 
@@ -687,7 +675,8 @@ footer span, footer p {
 }
 
 .skillimg:hover img {
-	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	        transform: scale(1.1);
 }
 
 /* END TECH SKILL SECTION STYLING */
@@ -769,8 +758,6 @@ footer span, footer p {
 	padding: 5rem 0 ;
 	text-align: center;
 	background: rgb(67,206,162);
-    background: -moz-linear-gradient(-45deg, rgb(67,206,162) 2%, rgb(24,90,157) 100%);
-    background: -webkit-linear-gradient(-45deg, rgb(67,206,162) 2%,rgb(24,90,157) 100%);
     background: linear-gradient(135deg, rgb(67,206,162) 2%,rgb(24,90,157) 100%);
     background-attachment: fixed;
 }
@@ -807,7 +794,8 @@ footer span, footer p {
 }
 
 .contact button:hover {
-	transform: translateY(.2rem);
+	-webkit-transform: translateY(.2rem);
+	        transform: translateY(.2rem);
 }
 
 
@@ -888,9 +876,6 @@ footer span, footer p {
     background-image: 
 					  linear-gradient(to bottom right, rgba(54,0,51,.7), rgba(11,135,147,.8)),
 					  url(../../assets/developer/projectspattern2.png);
-	background-image: 
-	                  -moz-linear-gradient(to bottom right, rgba(54,0,51,.7), rgba(11,135,147,.8)),
-	                  url(../../assets/developer/projectspattern2.png);
     background-image: 
                       -webkit-linear-gradient(to bottom right, rgba(54,0,51,.7), rgba(11,135,147,.8)),
                       url(../../assets/developer/projectspattern2.png);
@@ -928,8 +913,6 @@ footer span, footer p {
 .liveProjects {
 	padding: 2rem 0 4rem;
 	background: rgb(247,247,247);
-    background: -moz-linear-gradient(top, rgb(240,240,240) 1%, rgb(188,188,188) 100%);
-    background: -webkit-linear-gradient(top, rgb(240,240,240) 1%,rgb(188,188,188) 100%);
     background: linear-gradient(to bottom, rgb(240,240,240) 1%,rgb(188,188,188) 100%);
 
 	text-align: center;
@@ -987,7 +970,8 @@ footer span, footer p {
 }
 
 .projectContent i:hover {
-	transform: translateY(-.5rem);
+	-webkit-transform: translateY(-.5rem);
+	        transform: translateY(-.5rem);
 }
 
 .right {
@@ -1013,8 +997,6 @@ footer span, footer p {
 	height: auto;
 	padding: 4rem 0 4rem 0;
 	background: rgb(67,206,162);
-    background: -moz-linear-gradient(-45deg, rgb(67,206,162) 2%, rgb(24,90,157) 100%);
-    background: -webkit-linear-gradient(-45deg, rgb(67,206,162) 2%,rgb(24,90,157) 100%);
     background: linear-gradient(135deg, rgb(67,206,162) 2%,rgb(24,90,157) 100%);
     background-attachment: fixed;
 }
@@ -1050,7 +1032,8 @@ footer span, footer p {
 }
 
 .groupProject:hover {
-	transform: translateY(-.3rem);
+	-webkit-transform: translateY(-.3rem);
+	        transform: translateY(-.3rem);
 }
 
 .groupProject h4 {
@@ -1089,8 +1072,6 @@ footer span, footer p {
 	height: auto;
 	text-align: center;
 	background: rgb(247,247,247);
-    background: -moz-linear-gradient(bottom, rgb(247,247,247) 1%, rgb(188,188,188) 100%);
-    background: -webkit-linear-gradient(bottom, rgb(247,247,247) 1%,rgb(188,188,188) 100%);
     background: linear-gradient(to top, rgb(247,247,247) 1%,rgb(188,188,188) 100%);
 }
 
@@ -1128,7 +1109,8 @@ footer span, footer p {
 }
 
 .snippet img:hover {
-	transform: translateY(.2rem);
+	-webkit-transform: translateY(.2rem);
+	        transform: translateY(.2rem);
 }
 
 /* END SNIPPET PROJECT SECTION */
@@ -1160,9 +1142,6 @@ footer span, footer p {
     background-image: 
 					  linear-gradient(to bottom left, rgba(54,0,51,.8), rgba(11,135,147,.8)),
 					  url(../../assets/developer/contactheader2.jpg);
-	background-image: 
-	                  -moz-linear-gradient(to bottom left, rgba(54,0,51,.8), rgba(11,135,147,.8)),
-	                  url(../../assets/developer/contactheader2.jpg);
     background-image: 
                       -webkit-linear-gradient(to bottom left, rgba(54,0,51,.8), rgba(11,135,147,.8)),
                       url(../../assets/developer/contactheader2.jpg);
@@ -1214,7 +1193,8 @@ footer span, footer p {
 }
 
 .contactmsgContent button:hover {
-	transform: translateY(.2rem);
+	-webkit-transform: translateY(.2rem);
+	        transform: translateY(.2rem);
 }
 
 .contactmsgContent a {
@@ -1314,7 +1294,8 @@ footer span, footer p {
 }
 
 .volunteer a:hover {
-	transform: translateY(.2rem);
+	-webkit-transform: translateY(.2rem);
+	        transform: translateY(.2rem);
 }
 
 /* END CONTACT PAGE STYLING */
@@ -1337,8 +1318,26 @@ div.formhidden {
 	align-content: center;
 	align-items: top;
 	padding: 2rem 4rem;
-	animation-duration: 3.7s;
-	animation-fill-mode: ease-in-out;
+	-webkit-animation-duration: 3.7s;
+	        animation-duration: 3.7s;
+	-webkit-animation-fill-mode: ease-in-out;
+	        animation-fill-mode: ease-in-out;
+}
+
+@-webkit-keyframes smoothentry {
+	0% {
+		max-height: 0rem;
+		opacity: 0;
+	}
+
+	35% {
+		opacity: 0;
+	}
+
+	100% {
+		max-height: 40rem;
+		opacity: 1;
+	}
 }
 
 @keyframes smoothentry {
@@ -1354,6 +1353,22 @@ div.formhidden {
 	100% {
 		max-height: 40rem;
 		opacity: 1;
+	}
+}
+
+@-webkit-keyframes smoothexit {
+	0% {
+		max-height: 40rem;
+		opacity: 1;
+	}
+
+	35% {
+		opacity: 1;
+	}
+
+	100% {
+		max-height: 0rem;
+		opacity: 0;
 	}
 }
 
@@ -1377,7 +1392,8 @@ div.formhidden {
 	margin: 0 auto;
 	max-height: 40rem;
 	width: auto;
-	animation: smoothentry 1.8s ease-in-out;
+	-webkit-animation: smoothentry 1.8s ease-in-out;
+	        animation: smoothentry 1.8s ease-in-out;
 }
 
 .form h4 {
@@ -1462,7 +1478,8 @@ div.formhidden {
 }
 
 .sendbutton:hover {
-	transform: translateY(.2rem);
+	-webkit-transform: translateY(.2rem);
+	        transform: translateY(.2rem);
 }
 
 .success {

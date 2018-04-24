@@ -74,7 +74,7 @@ if (!$mail->send())
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<title>Contact - WP | DENHAM</title>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" type="text/css">
@@ -104,6 +104,11 @@ if (!$mail->send())
 				</ul>
 			</nav>
 		</div>
+		<div class="hamnav">
+			<div class="bar bar1"></div>
+			<div class="bar bar2"></div>
+			<div class="bar bar3"></div>
+		</div>
 				<div class="divideline"></div>
 	
 			<section class="contcontactme" id="contactForm">
@@ -126,7 +131,7 @@ if (!$mail->send())
 							<textarea name="message" name="message" id="" cols="75" rows="6" placeholder="message:"></textarea>
 							<!-- <button class="sendbutton">SEND</button> -->
 
-							<input type="submit" class="sendbutton" value="SEND">
+							<input type="submit" class="sendbutton sendbuttoncont" value="SEND">
 						</form>
 					</div>
 				</div>
@@ -136,6 +141,7 @@ if (!$mail->send())
 			<!-- BEGIN CONTACT ME SECTION -->
 
 	<!-- END HEADER/NAV -->
+	<div class="volunteermain">
 	<div class="container">
 		<!-- BEGIN VOLUNTEER SECTION -->
 		<section class="volunteer">
@@ -144,6 +150,7 @@ if (!$mail->send())
 			<a class="jdrfbutton" href="http://www.jdrf.org/illinois/" target="_blank">JDRF</a>
 		</section>
 		<!-- END VOLUNTEER SECTION -->
+	</div>
 	</div>
 		<!-- BEGIN FOOTER -->
 		<footer>

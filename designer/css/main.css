@@ -1782,12 +1782,13 @@ span.process {
 footer {
 	width: 100%;
 	height: auto;
-	background-color: #707070;
+	background-color: #ff5733;
 	text-align: center;
 	padding-bottom: 1rem;
 	position: fixed;
 	bottom: 0%;
-	z-index: 999;
+	z-index: 98;
+	box-shadow: 0px -1px 3px rgba(0,0,0,.6);
 }
 
 footer p {
@@ -1865,6 +1866,10 @@ footer span, footer p {
 
 .maincard p {
 	line-height: 2rem
+}
+
+.portfolio {
+	z-index: 97;
 }
 
 .portgridhome {
@@ -2240,7 +2245,14 @@ h4.signature {
 	width: 95%;
 }
 
+
+
+
 /* END PORTFOLIO PAGE RESPONSIVE STYLING */
+
+.contactheader {
+	height: auto;
+}
 
 .contcontactme {
 	overflow-y: hidden;
@@ -2283,6 +2295,62 @@ h4.signature {
 	font-size: 1.125rem;
 }
 
+/* BEGIN MODAL RESPONSIVE STYLING */
+
+.zoomcontainer {
+	width: 100%;
+}
+
+.close {
+	top: 0;
+	right: 30px;
+}
+
+.modal {
+	width: 90%;
+	margin: 0 auto;
+	display: block;
+	height: 92%;
+}
+
+.imgcol {
+	display: block;
+	width: 100%;
+	margin-bottom: 0;
+}
+
+.imgcol img {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.contentcol {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.contentcol h3 {
+	padding-top: 0;
+	margin-top: 0;
+	font-size: 1.5rem;
+}
+
+.contentcol h4 {
+	font-size: 1.2rem;
+}
+
+.contentcol p {
+	width: 95%;
+	font-size: .9rem;
+	line-height: 1.2rem;
+}
+
+.process {
+	display: none;
+}
+
+/* END MODAL RESPONSIVE STYLING */
 
 }
 
@@ -2319,7 +2387,7 @@ h4.signature {
 footer {
 	width: 100%;
 	height: auto;
-	background-color: #707070;
+	background-color: #ef5733;
 	text-align: center;
 	padding-bottom: 1rem;
 	position: fixed;
@@ -2777,6 +2845,65 @@ h4.signature {
 	font-size: 1.125rem;
 }
 
+/* BEGIN MODAL RESPONSIVE STYLING */
+
+.zoomcontainer {
+	width: 100%;
+	overflow-y: auto;
+}
+
+.close {
+	top: 1%;
+	right: 8%;
+}
+
+.modal {
+	width: 90%;
+	margin: 0 auto;
+	display: block;
+	height: 92%;
+}
+
+.imgcol {
+	display: block;
+	width: 100%;
+	margin-bottom: 0;
+}
+
+.imgcol img {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.contentcol {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.contentcol h3 {
+	padding-top: .5rem;
+	margin-top: 0;
+	font-size: 2rem;
+}
+
+.contentcol h4 {
+	font-size: 1.2rem;
+}
+
+.contentcol p {
+	width: 95%;
+	font-size: 1.2rem;
+	line-height: 1.5rem;
+	margin-bottom: 5rem;
+}
+
+.process {
+	display: none;
+}
+
+/* END MODAL RESPONSIVE STYLING */
+
 }
 
 
@@ -3123,6 +3250,66 @@ h4.signature {
 	font-size: 1.125rem;
 }	
 
+/* BEGIN MODAL RESPONSIVE STYLING */
+
+.zoomcontainer {
+	width: 100%;
+	overflow-y: auto;
+}
+
+.close {
+	top: 1%;
+	right: 9%;
+}
+
+.modal {
+	width: 90%;
+	margin: 0 auto;
+	display: block;
+	height: 92%;
+}
+
+.imgcol {
+	display: block;
+	width: 100%;
+	margin-bottom: 0;
+}
+
+.imgcol img {
+	width: auto;
+	margin: 0 auto;
+}
+
+.contentcol {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.contentcol h3 {
+	padding-top: .5rem;
+	margin-top: 0;
+	font-size: 2.2rem;
+}
+
+.contentcol h4 {
+	font-size: 1.3rem;
+}
+
+.contentcol p {
+	width: 95%;
+	font-size: 1.5rem;
+	line-height: 1.8rem;
+	margin-bottom: 5rem;
+}
+
+.process {
+	display: none;
+}
+
+/* END MODAL RESPONSIVE STYLING */
+
+
 }
 
 
@@ -3431,6 +3618,65 @@ h4.signature {
 	font-size: 1.125rem;
 }	
 
+/* BEGIN MODAL RESPONSIVE STYLING */
+
+.zoomcontainer {
+	width: 100%;
+	overflow-y: auto;
+}
+
+.close {
+	top: 1%;
+	right: 9%;
+}
+
+.modal {
+	width: 90%;
+	margin: 0 auto;
+	display: block;
+	height: 92%;
+}
+
+.imgcol {
+	display: block;
+	width: 100%;
+	margin-bottom: 0;
+}
+
+.imgcol img {
+	width: auto;
+	margin: 0 auto;
+}
+
+.contentcol {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.contentcol h3 {
+	padding-top: .5rem;
+	margin-top: 0;
+	font-size: 2.2rem;
+}
+
+.contentcol h4 {
+	font-size: 1.3rem;
+}
+
+.contentcol p {
+	width: 95%;
+	font-size: 1.5rem;
+	line-height: 1.8rem;
+	margin-bottom: 5rem;
+}
+
+.process {
+	display: none;
+}
+
+/* END MODAL RESPONSIVE STYLING */
+
 }
 
 @media screen and (max-width: 1280px) and (min-width: 1180px){
@@ -3691,7 +3937,64 @@ h4.signature {
 	font-size: 1.35rem;
 }	
 
-/* END CONTACT PAGE RESPONSIVE STYLING */	
+/* END CONTACT PAGE RESPONSIVE STYLING */
+
+/* BEGIN MODAL RESPONSIVE STYLING */
+
+.zoomcontainer {
+	width: 100%;
+}
+
+.close {
+	top: 1%;
+	right: 9%;
+}
+
+.modal {
+	width: 90%;
+	margin: 0 auto;
+	display: block;
+	height: 92%;
+}
+
+.imgcol {
+	display: block;
+	width: 100%;
+	margin-bottom: 0;
+}
+
+.imgcol img {
+	width: auto;
+	margin: 0 auto;
+}
+
+.contentcol {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.contentcol h3 {
+	padding-top: .5rem;
+	margin-top: 0;
+	font-size: 2.2rem;
+}
+
+.contentcol h4 {
+	font-size: 1.3rem;
+}
+
+.contentcol p {
+	width: 95%;
+	font-size: 1.5rem;
+	line-height: 1.8rem;
+}
+
+.process {
+	display: none;
+}
+
+/* END MODAL RESPONSIVE STYLING */	
 }
 
 @media screen and (max-width: 1399px) and (min-width: 1281px){
@@ -3925,6 +4228,64 @@ h4.signature {
 }
 
 /* END CONTACT PAGE RESPONSIVE STYLING */	
+
+/* BEGIN MODAL RESPONSIVE STYLING */
+
+.zoomcontainer {
+	width: 100%;
+}
+
+.close {
+	top: 1%;
+	right: 9%;
+}
+
+.modal {
+	width: 90%;
+	margin: 0 auto;
+	display: block;
+	height: 92%;
+}
+
+.imgcol {
+	display: block;
+	width: 100%;
+	margin-bottom: 0;
+}
+
+.imgcol img {
+	width: auto;
+	margin: 0 auto;
+}
+
+.contentcol {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.contentcol h3 {
+	padding-top: .5rem;
+	margin-top: 0;
+	font-size: 2.2rem;
+}
+
+.contentcol h4 {
+	font-size: 1.3rem;
+}
+
+.contentcol p {
+	width: 85%;
+	font-size: 1.5rem;
+	line-height: 1.8rem;
+}
+
+.process {
+	display: none;
+}
+
+/* END MODAL RESPONSIVE STYLING */
+
 }
 
 
@@ -4021,6 +4382,14 @@ h4.signature {
 
 
 /* END ABOUT PAGE RESPONSIVE STYLING */
+
+/* BEGIN PORTFOLIO PAGE RESPONSIVE STYLING */
+
+.projitemin h5 {
+	padding-top: 6rem;
+}
+
+/* END PORTFOLIO PAGE RESPONSIVE STYLING */
 
 
 /* BEGIN CONTACT PAGE RESPONSIVE STYLING */
@@ -4180,6 +4549,61 @@ h4.signature {
 }
 
 /* END CONTACT PAGE RESPONSIVE STYLING */
+
+/* BEGIN MODAL RESPONSIVE STYLING */
+
+.zoomcontainer {
+	width: 100%;
 }
 
-/*END MEDIA QUERIES*/
+.close {
+	top: 1%;
+	right: 9%;
+}
+
+.modal {
+	width: 90%;
+	margin: 0 auto;
+	display: block;
+	height: 92%;
+}
+
+.imgcol {
+	display: block;
+	width: 100%;
+	margin-bottom: 0;
+}
+
+.imgcol img {
+	width: auto;
+	margin: 0 auto;
+}
+
+.contentcol {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.contentcol h3 {
+	padding-top: .5rem;
+	margin-top: 0;
+	font-size: 2.2rem;
+}
+
+.contentcol h4 {
+	font-size: 1.3rem;
+}
+
+.contentcol p {
+	width: 95%;
+	font-size: 1.5rem;
+	line-height: 1.8rem;
+}
+
+.process {
+	display: none;
+}
+
+/* END MODAL RESPONSIVE STYLING */
+}

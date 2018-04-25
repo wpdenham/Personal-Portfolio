@@ -1,4 +1,4 @@
-<!-- <?php
+<?php
 use PHPMailer\PHPMailer\PHPMailer;
 require ('/home/karbon7/wpdenham.com/phpmailertesting/vendor/autoload.php');
 //Create a new PHPMailer instance
@@ -68,7 +68,6 @@ if (!$mail->send())
 }
 }
 ?>
- -->
 
 <!DOCTYPE html>
 <html lang="en">

@@ -1,4 +1,4 @@
-<?php
+<!--<?php
 use PHPMailer\PHPMailer\PHPMailer;
 require ('/home/karbon7/wpdenham.com/phpmailertesting/vendor/autoload.php');
 //Create a new PHPMailer instance
@@ -67,8 +67,7 @@ if (!$mail->send())
     $success = "Message sent. Thank you for reaching out!";
 }
 }
-?>
-
+?>-->
 <!doctype html>
 <html lang="en">
   <head>
@@ -157,6 +156,7 @@ if (!$mail->send())
       <!-- ABOUT INTRO -->
       	<main>
       		<section class="aboutmain">
+      			<div class="container">
       			<div class="about">
       				<div class="aboutimg">
 			      		<img src="../../assets/developer/developeraboutimg.png" alt="">
@@ -184,6 +184,7 @@ if (!$mail->send())
 		      			
 	      			</div>
 	      		</div>
+	      		</div>
       		</section>
       <!-- END ABOUT INTRO -->
 
@@ -210,7 +211,7 @@ if (!$mail->send())
 								<form action="#contactForm" method="POST">
 									<input name="name" type="text" placeholder="name:" required>
 									<input name="email" type="email" placeholder="email:" required>
-									<textarea name="message" name="message" id="" cols="75" rows="6" placeholder="message:"></textarea>>
+									<textarea name="message" name="message" id="" cols="75" rows="6" placeholder="message:"></textarea>
 
 									<input type="submit" class="sendbutton" value="SEND">
 								</form>

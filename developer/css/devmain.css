@@ -355,7 +355,7 @@ body::-webkit-scrollbar-corner {
 	align-items: center;
 	margin: 0 auto;
 	padding: 4rem 0 4rem 0;
-	width: 75%;
+	width: 100%;
 }
 
 .aboutimg {

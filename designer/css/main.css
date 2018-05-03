@@ -1727,6 +1727,12 @@ li div.right{
     color: #f0f0f0;
 }
 
+.contentcol a {
+	cursor: pointer;
+	text-decoration: underline;
+    color: #ff5733;
+}
+
 span.process {
 	width: 70%;
 	font-size: 1.375em;
@@ -2064,6 +2070,7 @@ h4.signature {
 .skillset {
 	margin-top: -80px;
 	padding: 20px 10px;
+	z-index: 98;
 }
 
 
@@ -2663,6 +2670,7 @@ h4.signature {
 .skillset {
 	margin-top: -80px;
 	padding: 20px 10px;
+	z-index: 98;
 }
 
 

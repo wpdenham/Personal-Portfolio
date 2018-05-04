@@ -1698,6 +1698,12 @@ li div.right{
     margin-right: 20px;
 }
 
+.imgcol video {
+	margin-top: 6rem;
+	width: 100%;
+	border-radius: 1.5rem;
+}
+
 .contentcol h3 {
     font-size: 4em;
     color: #ff5733;
@@ -2331,6 +2337,11 @@ h4.signature {
 	margin: 0 auto;
 }
 
+.imgcol video {
+	width: 90%;
+	border-radius: 1.5rem;
+}
+
 .contentcol {
 	display: block;
 	width: 100%;
@@ -2883,6 +2894,11 @@ h4.signature {
 	margin: 0 auto;
 }
 
+.imgcol video {
+	width: 90%;
+	border-radius: 1.5rem;
+}
+
 .contentcol {
 	display: block;
 	width: 100%;
@@ -3288,6 +3304,11 @@ h4.signature {
 	margin: 0 auto;
 }
 
+.imgcol video {
+	width: 85%;
+	border-radius: 1.5rem;
+}
+
 .contentcol {
 	display: block;
 	width: 100%;
@@ -3656,6 +3677,11 @@ h4.signature {
 	margin: 0 auto;
 }
 
+.imgcol video {
+	width: 75%;
+	border-radius: 1.5rem;
+}
+
 .contentcol {
 	display: block;
 	width: 100%;
@@ -3976,6 +4002,11 @@ h4.signature {
 	margin: 0 auto;
 }
 
+.imgcol video {
+	width: 65%;
+	border-radius: 1.5rem;
+}
+
 .contentcol {
 	display: block;
 	width: 100%;
@@ -4264,6 +4295,11 @@ h4.signature {
 .imgcol img {
 	width: auto;
 	margin: 0 auto;
+}
+
+.imgcol video {
+	width: 65%;
+	border-radius: 1.5rem;
 }
 
 .contentcol {
@@ -4585,6 +4621,11 @@ h4.signature {
 .imgcol img {
 	width: auto;
 	margin: 0 auto;
+}
+
+.imgcol video {
+	width: 65%;
+	border-radius: 1.5rem;
 }
 
 .contentcol {

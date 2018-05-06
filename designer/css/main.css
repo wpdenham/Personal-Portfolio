@@ -186,7 +186,7 @@ body::-webkit-scrollbar-corner {
 .indexheader {
 	width: 100%;
 	height: 960px;
-	background-image: url(../../assets/designer/headers/indexhead.png);
+	background-image: url(../../assets/designer/headers/indexhead.jpg);
 	background-size: cover;
 	overflow-x: hidden;
 	background-color: rgba(112,112,112, .95);
@@ -913,7 +913,7 @@ li div.right{
 .portfolioheader {
 	width: 100%;
 	height: 450px;
-	background-image: url(../../assets/designer/headers/portfoliohead.png);
+	background-image: url(../../assets/designer/headers/portfoliohead.jpg);
 	background-size: cover;
 	overflow-x: hidden;
 	background-color: rgba(112,112,112, .95);
@@ -1206,7 +1206,7 @@ li div.right{
 .servicesheader {
 	width: 100%;
 	height: 550px;
-	background-image: url(../../assets/designer/headers/serviceshead.png);
+	background-image: url(../../assets/designer/headers/serviceshead.jpg);
 	background-size: cover;
 	overflow-x: hidden;
 	background-color: rgba(112,112,112, .95);

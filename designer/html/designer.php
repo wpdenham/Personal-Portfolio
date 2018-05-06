@@ -73,13 +73,15 @@ if (!$mail->send())
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<title>WP | DENHAM  Graphic Designer</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600|Rock+Salt" rel="stylesheet">
 	<link rel="stylesheet" href="../css/main.css" type="text/css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+	<link rel="icon" href="../../assets/designer/general/favicon.gif" type="image/gif" sizes="32x32">
 </head>
 <body>
 	
@@ -217,10 +219,10 @@ if (!$mail->send())
 						<!-- ITEM 2 END BREAK -->
 						<!-- ITEM 3 BREAK -->
 						<div class="projitemout animated bounceInRight">
-							<img src="../../assets/designer/portfolio/nighthawk.png" alt="">
+							<img src="../../assets/designer/portfolio/texasblackout.png" alt="">
 							<a onclick="isVisible('proj3')">
 							<div class="projitemin">
-								<h5>NIGHTHAWK</h5>
+								<h5>TEXAS BLACKOUT</h5>
 								<p>3D Emblem Package</p>
 							</div>
 							</a>
@@ -230,14 +232,16 @@ if (!$mail->send())
 								
 								<div class="modal">
 									<div class="imgcol">
-										<img src="../../assets/designer/portfolio/nighthawk.png" alt="" >
+										<video playsinline autoplay muted loop>
+											<source src="../../assets/designer/portfolio/texasblackoutweb.mp4"></source>
+										</video>
 									</div>
 									<div class="contentcol">
 										<span onclick="blankOpacity('proj3')" class="close">&times;</span>
-										<h3>NIGHTHAWK</h3>
+										<h3>TEXAS BLACKOUT</h3>
 										<h4>3D Emblem Package</h4>
 										<div class="divideline"></div>
-										<p>This client was interested in incorporating a bit of extra flair to their vehicle up-fitting process. With a limited run of 100 pieces, this vacuumed formed emblem helped to create a truly unique vehicle package. </p>
+										<p>When competing in the truck market, its important to stand out and provide additional value to your customer base. By adding this unique vehicle emblem and up-fitting package to trucks in the Texas area, dealers could market themselves as having something no one else in the other 49 states would.</p>
 										<span class="process">Process: Illustrator, Solidworks, KeyShot, Photoshop</span>
 									</div>
 								</div>
@@ -301,11 +305,11 @@ if (!$mail->send())
 						<!-- ITEM 5 END BREAK -->
 						<!-- ITEM 6 BREAK -->
 						<div class="projitemout animated bounceInRight">
-							<img src="../../assets/designer/portfolio/nighthawka.png" alt="">
+							<img src="../../assets/designer/portfolio/viridianhealth.png" alt="">
 							<a onclick="isVisible('proj6')">
 							<div class="projitemin">
-								<h5>PROVOCATION</h5>
-								<p>2015 Kia Cadenza</p>
+								<h5>VIRIDIAN HEALTH</h5>
+								<p>UX Sprint</p>
 							</div>
 							</a>
 						</div>
@@ -314,15 +318,15 @@ if (!$mail->send())
 								
 								<div class="modal">
 									<div class="imgcol">
-										<video src="../images/test.mp4" alt="" width="100%" autoplay="true"></video>
+										<img src="../../assets/designer/portfolio/viridianhealth.png" alt="">
 									</div>
 									<div class="contentcol">
 										<span onclick="blankOpacity('proj6')" class="close">&times;</span>
-										<h3>PROVOCATION</h3>
-										<h4>2015 Kia Cadenza</h4>
+										<h3>VIRIDIAN HEALTH</h3>
+										<h4>UX Sprint</h4>
 										<div class="divideline"></div>
-										<p>Premium vehicle rendering designed for a project at the 2015 SEMA Show. This rendering was created entirely in Photoshop.</p>
-										<span class="process">Process: Illustrator, Photoshop</span>
+										<p>As part of the DESIGNATION UX Curriculum, a group project was required that focused on creating an app or product that would help people adopt a more healthy lifestyle. Through research, design and iteration, we ultimately landed on <em>Viridian Health</em>. <br/>Take a look: <a href="../../assets/designer/portfolio/viridianhealth.pdf" target="_blank">Stakeholder Presentation</a></p>
+										<span class="process">Process: Subject Research, Market/SWAT Analysis, User Interviews, Persona Development, Prototyping, Low/Mid Fidelity Wire-framing</span>
 									</div>
 								</div>
 							</div>

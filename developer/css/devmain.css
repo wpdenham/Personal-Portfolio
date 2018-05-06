@@ -878,10 +878,10 @@ footer span, footer p {
 	
     background-image: 
 					  linear-gradient(to bottom right, rgba(54,0,51,.7), rgba(11,135,147,.8)),
-					  url(../../assets/developer/projectspattern2.png);
+					  url(../../assets/developer/projectspattern2.jpg);
     background-image: 
                       -webkit-linear-gradient(to bottom right, rgba(54,0,51,.7), rgba(11,135,147,.8)),
-                      url(../../assets/developer/projectspattern2.png);
+                      url(../../assets/developer/projectspattern2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-blend-mode: normal; 
@@ -1151,6 +1151,7 @@ footer span, footer p {
     background-position: top;
     background-repeat: no-repeat;
     background-blend-mode: soft-light;
+    background-size: cover;
 }
 
 .contactmsg {

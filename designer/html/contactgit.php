@@ -20,8 +20,8 @@ $mail->SMTPDebug = 0;
 $mail->setFrom($email, $name);
  
 // Recipient (name is optional)
-$mail->addAddress('bill@wpdenham.com');
-$mail->AddCC('bill@karbonkreationz.com');
+$mail->addAddress('test@test.com');
+$mail->AddCC('test@test.com');
  
 // Subject 
 $mail->Subject = 'New WPDenham Contact Form Submission';
@@ -40,23 +40,23 @@ $mail->AltBody = $message;
 $mail->isSMTP();
  
 // SMTP host
-$mail->Host = 'secure224.inmotionhosting.com';
+$mail->Host = 'test.test.com';
  
 // SMTP TCP port
-$mail->Port = 25;
+$mail->Port = xx;
  
 // Use TSL secure connection
-$mail->SMTPSecure = 'tls';
+$mail->SMTPSecure = 'xxx';
 
  
 // Enable authentication
 $mail->SMTPAuth = TRUE;
  
 // SMTP username
-$mail->Username = 'contact@wpdenham.com';
+$mail->Username = 'test@test.com';
  
 // SMTP password
-$mail->Password = 'contact123';
+$mail->Password = 'test123';
 
 // Send the message 
 if (!$mail->send())
@@ -68,7 +68,6 @@ if (!$mail->send())
 }
 }
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>

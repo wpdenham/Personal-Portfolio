@@ -1116,6 +1116,11 @@ footer span, footer p {
 	        transform: translateY(.2rem);
 }
 
+.snippet i {
+	padding-right: .5rem;
+	color: #aaa;
+}
+
 /* END SNIPPET PROJECT SECTION */
 
 /* END PROJECTS PAGE STYLING */

@@ -56,7 +56,7 @@ $mail->SMTPAuth = TRUE;
 $mail->Username = 'contact@wpdenham.com';
  
 // SMTP password
-$mail->Password = 'contact123';
+$mail->Password = 'Karbon2018!';
 
 // Send the message 
 if (!$mail->send())
